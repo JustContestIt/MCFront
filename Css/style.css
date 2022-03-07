@@ -30,3 +30,9 @@ img{
 .wrapper{
     margin-left: 50px;
 }
+.img-wrapper{
+    justify-content: center;
+}
+.img-title-wrapper{
+    text-align: center;
+}
