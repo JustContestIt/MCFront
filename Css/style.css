@@ -36,6 +36,11 @@ body{
 .centered{
     justify-content: center;
     align-content: center;
+    text-align: center;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
 }
 .w-half{
     width: 50%;
