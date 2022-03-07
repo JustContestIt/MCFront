@@ -1,0 +1,32 @@
+h1{
+    color: blue;
+}
+img{
+    width: 500px;
+}
+#BigText{
+    font-size: 50px;
+}
+#SmallText{
+    font-size: 10px;
+}
+.GreenText{
+    color: MediumSeaGreen;
+}
+.img-portrait{
+    max-width: 600px;
+    max-height: 800px;
+    border: 2px solid MediumSeaGreen;
+    border-radius: 8px;
+    padding: 5px;
+}
+.img-portrait-title{
+    color: MediumSeaGreen;
+    text-align: center;
+}
+.img-portrait-title:hover{
+    color: orange;
+}
+.wrapper{
+    margin-left: 50px;
+}
