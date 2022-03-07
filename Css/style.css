@@ -1,38 +1,42 @@
-h1{
-    color: blue;
+body{
+    margin: 0;
+    background-color: rgb(238, 130, 238);
 }
-img{
-    width: 500px;
+.menuLink{
+    color: #262626;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0 15px;
+    margin: 0 15px;
 }
-#BigText{
-    font-size: 50px;
+.menuLink:hover{
+    color: #fff;
+    background-color: #262626;
+    border-radius: 15px;
 }
-#SmallText{
-    font-size: 10px;
+.flex{
+    display: flex;
 }
-.GreenText{
-    color: MediumSeaGreen;
+.logo{
+    cursor: pointer;
+    color: #262626;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0 15px;
+    margin: 0 15px;
 }
-.img-portrait{
-    max-width: 600px;
-    max-height: 800px;
-    border: 2px solid MediumSeaGreen;
-    border-radius: 8px;
-    padding: 5px;
+.header{
+    padding: 15px;
+    box-shadow: 5px 5px 20px 20px rgb(155, 39, 155);
 }
-.img-portrait-title{
-    color: MediumSeaGreen;
-    text-align: center;
+.menu{
+    right: 30px;
+    position: absolute;
 }
-.img-portrait-title:hover{
-    color: orange;
-}
-.wrapper{
-    margin-left: 50px;
-}
-.img-wrapper{
+.centered{
     justify-content: center;
+    align-content: center;
 }
-.img-title-wrapper{
-    text-align: center;
+.w-half{
+    width: 50%;
 }
