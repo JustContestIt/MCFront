@@ -17,6 +17,15 @@ body{
 .flex{
     display: flex;
 }
+.header{
+    padding: 15px;
+    box-shadow: 5px 5px 20px 20px rgb(155, 39, 155);
+    margin-bottom: 200px;
+}
+.menu{
+    right: 30px;
+    position: absolute;
+}
 .logo{
     cursor: pointer;
     color: #262626;
@@ -25,23 +34,67 @@ body{
     padding: 0 15px;
     margin: 0 15px;
 }
-.header{
-    padding: 15px;
-    box-shadow: 5px 5px 20px 20px rgb(155, 39, 155);
+.w-half{
+    width: 50%;
 }
-.menu{
-    right: 30px;
-    position: absolute;
+.intro-wrapper{
+    display: flex;
+    flex-direction: row;
 }
-.centered{
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.intro-block{
+    padding: 50px 40px;
+}
+.intro-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: left;
+    color: #000000;
 }
 .intro-text{
-    display: flex;
-    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #727272;
 }
-.w-half{
+.intro-button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.4s;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 40px;
+    box-shadow: 2px 2px 10px 1px rgb(155, 39, 155);
+}
+.button1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #555555;
+}
+.button1:hover {
+    background-color: #555555;
+    color: white;
+    box-shadow: none;
+}
+.intro-img{
+    max-width: 50%;
+    max-height: 50%;
+}
+.intro_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
 }
