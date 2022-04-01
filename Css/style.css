@@ -8,11 +8,12 @@ body{
     text-decoration: none;
     padding: 0 15px;
     margin: 0 15px;
+    transition: 0.4s;
+    border-radius: 15px;
 }
 .menuLink:hover{
     color: #fff;
     background-color: #262626;
-    border-radius: 15px;
 }
 .flex{
     display: flex;
@@ -34,12 +35,15 @@ body{
     padding: 0 15px;
     margin: 0 15px;
 }
+.centered{
+    justify-content: center;
+    align-content: center;
+}
 .w-half{
     width: 50%;
 }
 .intro-wrapper{
     display: flex;
-    flex-direction: row;
 }
 .intro-block{
     padding: 50px 40px;
@@ -70,7 +74,6 @@ body{
     border: none;
     color: white;
     text-align: center;
-    display: inline-block;
     font-size: 16px;
     transition: 0.4s;
     display: flex;
@@ -89,12 +92,45 @@ body{
     box-shadow: none;
 }
 .intro-img{
-    max-width: 50%;
-    max-height: 50%;
+    justify-content: center;
+    align-items: center;
 }
-.intro_pic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.mb-50{
+    margin-bottom: 50px;
+}
+.ps-100{
+    padding: 15px 100px 15px 100px;
+}
+.bg-dark{
+    background-color: #262626;
+}
+.text-white{
+    color: white;
+}
+.square{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.cardPrice{
+    border: 1px solid #262626;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 6fr 3fr;
+    grid-template-rows: auto;
+    gap: 15px;
+    align-items: center;
+}
+.circle{
+    background-color: skyblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+#cardBox{
+    padding: 0 30%;
 }
